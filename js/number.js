@@ -85,12 +85,50 @@
 // console.log(Number("hello") + 10)
 // nan not any number значить що нема будь якого числа
 
-const styles = "15.5px"
+// const styles = "15.5px"
 
-const stylesNumber = Number.parseInt(styles)
-console.log(stylesNumber)
+// const stylesNumber = Number.parseInt(styles)
+// console.log(stylesNumber)
 // parseInt лише цілі числа
 
-const stylesFloat = Number.parseFloat(styles)
-console.log(stylesFloat)
+// const stylesFloat = Number.parseFloat(styles)
+// console.log(stylesFloat)
 // parseFloat лише цілі числа
+
+// ---------------------------------------------------------------------
+
+// console.dir(Math)
+
+// console.log(Math.max( 2, 5, 3 ,7 ,9))
+// console.log(Math.min( 2, 5, 3 ,7 ,9))
+// console.log(Math.pow( 2, 5, 3 ,7 ,9))
+// console.log(Math.round( 2.5379))
+// console.log(Math.ceil( 2.5379))
+// console.log(Math.floor( 2.5379))
+
+// const randomNumber = Math.random()
+
+// console.log(randomNumber)
+
+// ---------------------------------------------------------------------
+
+// тип даних рядок
+const testMessege = "thisIsSparta"
+console.log(testMessege)
+
+const firstLetter = testMessege[0]
+console.log(firstLetter)
+
+// const lastLetter = testMessege[3]
+// console.log(lastLetter)
+
+// знайдемо кількість символів у рядку через lenght "довжину"
+const messegeLenght = testMessege.length
+console.log(messegeLenght)
+
+// знайдемо останній індекс у даному рядку
+const lastIndex = messegeLenght - 1
+
+// звернемось до останнього рядку через index
+const lastLetter = testMessege[lastIndex]
+console.log(lastLetter)

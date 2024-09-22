@@ -113,6 +113,7 @@
 // ---------------------------------------------------------------------
 
 // тип даних рядок
+
 // const testMessege = "thisIsSparta";
 // console.log(testMessege)
 
@@ -137,24 +138,59 @@
 
 // конкатенація рядків "зшивання"
 
-const friendName = "Krestina";
-const greeting = "hello my friend,";
-const messege = greeting + " " + friendName;
-console.log(messege)
+// const friendName = "Krestina";
+// const greeting = "hello my friend,";
+// const messege = greeting + " " + friendName;
+// console.log(messege)
 
-console.log("My best friend is " + friendName)
+// console.log("My best friend is " + friendName)
 
-// ${} - це називається інтерполяцією 
-const newMessage = `the age of ${friendName} is 12`;
-console.log(newMessage)
+// // ${} - це називається інтерполяцією 
+// const newMessage = `the age of ${friendName} is 12`;
+// console.log(newMessage)
 
 // ---------------------------------------------------------------------
 
-// властивості рядків
+// властивості та методи рядків
 
-const info = "I am Ukrainian";
-const bigInfo = info.toUpperCase();
-console.log(bigInfo)
+// const info = "I am Ukrainian";
+// const bigInfo = info.toUpperCase();
+// console.log(bigInfo)
 
-const smallInfo = info.toLowerCase();
-console.log(smallInfo)
+// const smallInfo = info.toLowerCase();
+// console.log(smallInfo)
+
+// const mess = 'Привіт, я принц Абдул, це не спам, пропоную тобі мільйон!';
+// const hasSpam = mess.includes("спам")
+// console.log(hasSpam)
+
+// const indexMess = mess.indexOf("спам")
+// console.log(indexMess)
+
+// const metod = " привіт це текст ";
+// console.log(metod)
+
+// const metodLenght = metod.length;
+// console.log(metodLenght)
+
+// // метод trim обрізає пробіли на початку і в кінці рядка
+// const trimMessage = metod.trim();
+// console.log(trimMessage)
+
+// const trimdLenght = trimMessage.length;
+// console.log(trimdLenght)
+
+// метод partStart
+
+// const advert = "Куплю будинок";
+// console.log(advert.length)
+// // метод padStart
+// const StartAdvert = advert.padStart(15, ".")
+// console.log(StartAdvert)
+// // метод padEnd
+// const endAdvert = advert.padEnd(20, "!")
+// console.log(endAdvert)
+
+// метод startsWith перевіряє чи на початку є слово яке ми вказали у змінну
+// const checkStart = mess.startsWith("Привіт")
+// console.log(checkStart)

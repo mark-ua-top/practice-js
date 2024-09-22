@@ -113,22 +113,48 @@
 // ---------------------------------------------------------------------
 
 // тип даних рядок
-const testMessege = "thisIsSparta"
-console.log(testMessege)
+// const testMessege = "thisIsSparta";
+// console.log(testMessege)
 
-const firstLetter = testMessege[0]
-console.log(firstLetter)
+// const firstLetter = testMessege[0];
+// console.log(firstLetter)
 
-// const lastLetter = testMessege[3]
+// // const lastLetter = testMessege[3];
+// // console.log(lastLetter)
+
+// // знайдемо кількість символів у рядку через lenght "довжину"
+// const messegeLenght = testMessege.length;
+// console.log(messegeLenght)
+
+// // знайдемо останній індекс у даному рядку
+// const lastIndex = messegeLenght - 1;
+
+// // звернемось до останнього рядку через index
+// const lastLetter = testMessege[lastIndex];
 // console.log(lastLetter)
 
-// знайдемо кількість символів у рядку через lenght "довжину"
-const messegeLenght = testMessege.length
-console.log(messegeLenght)
+// ---------------------------------------------------------------------
 
-// знайдемо останній індекс у даному рядку
-const lastIndex = messegeLenght - 1
+// конкатенація рядків "зшивання"
 
-// звернемось до останнього рядку через index
-const lastLetter = testMessege[lastIndex]
-console.log(lastLetter)
+const friendName = "Krestina";
+const greeting = "hello my friend,";
+const messege = greeting + " " + friendName;
+console.log(messege)
+
+console.log("My best friend is " + friendName)
+
+// ${} - це називається інтерполяцією 
+const newMessage = `the age of ${friendName} is 12`;
+console.log(newMessage)
+
+// ---------------------------------------------------------------------
+
+// властивості рядків
+
+const info = "I am Ukrainian";
+const bigInfo = info.toUpperCase();
+console.log(bigInfo)
+
+const smallInfo = info.toLowerCase();
+console.log(smallInfo)

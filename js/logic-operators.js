@@ -7,7 +7,7 @@
 
 // console.log(0 || null || 2 === 3 || "" || undefined || 9)
 
-// // логічне не-(!) робить інверсію тобто міняє true на false а folse на true
+// // логічне не-(!) робить інверсію тобто міняє true на false а false на true
 
 // console.log(! 0)
 // console.log(! 5 > 3)
@@ -33,11 +33,12 @@
 // const vip = true
 // const haveSub = free || pro || vip
 // console.log(haveSub)
+
 // 2;
-const isSub = prompt("Ведіть назву підписки")
-console.log(isSub)
-if (isSub === "free" || isSub === "pro" || isSub === "vip"){
-    alert("Ви авторизовані")
-} else {
-    alert("Ваш тип підписки не вілповідає для авторизації")
-}
+// const isSub = prompt("Ведіть назву підписки")
+// console.log(isSub)
+// if (isSub === "free" || isSub === "pro" || isSub === "vip"){
+//     alert("Ви авторизовані")
+// } else {
+//     alert("Ваш тип підписки не вілповідає для авторизації")
+// }

@@ -53,3 +53,45 @@
 // // збільшуємо ітерацію i += 1 тобто 4 = 4 + 1 тобто вийде i = 5
 // // крок 11
 // // тепер в i лежить 3 і ми перівіряємо умову на шостому колі i < 5 тобто 3 < 5 це буде false
+// буде зациклення
+// let year = prompt("How old are you");
+// while (year > 18){
+// alert("U older from me")
+// }
+
+// цикл while
+// let year = prompt("How old are you");
+// while (year < 18){
+//     alert(`U ${year} old`)
+// year ++
+// }
+
+// цикл do while
+// let savePas = 631936
+// let pasword ;
+// do {
+// pasword = Number(prompt("pls pasword"))
+// } while (pasword !== savePas)
+
+// оператор break перериває цикла там де ми йього поставили і виходить з циклу
+// знайти число 33 серед 100
+// for (let i = 1; i <= 100; i += 1){
+//     console.log(i)
+//     if (i === 33){
+//         console.log("we found 33")
+//         break
+//     }
+// }
+
+// оператор continue - пропускає вказану ітерацію в циклі
+// переберемо числа від одного до ста та переберем лише не парні числа
+// for (let i = 1; i <= 100; i += 1){
+//     if (i % 2 !== 0){
+//     continue;
+//     }
+//     console.log(i)
+// }
+
+// for (let i = 0; i <= 100; i += 2){
+//     console.log(i)
+// }

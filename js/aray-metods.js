@@ -19,23 +19,26 @@
 // const indexNum = num.indexOf(5)
 // console.log(indexNum)
 
-//includes метод переваіряє чи є шуканий елемент у масиві
-const friends = ["Sasha", "Induk Dima", "Phone"]
-const isFriendInArray = friends.includes("Sasha")
-console.log(isFriendInArray)
+// //includes метод переваіряє чи є шуканий елемент у масиві
+// const friends = ["Sasha", "Induk Dima", "Phone"]
+// const isFriendInArray = friends.includes("Sasha")
+// console.log(isFriendInArray)
 
-//pop метод видаляє останній елемент масиві
-friends.pop("Tima")
-console.log(friends)
+// //pop метод видаляє останній елемент масиві
+// friends.pop("Tima")
+// console.log(friends)
 
-//push метод додає елемент у кінці масива 
-friends.push("Max")
-console.log(friends)
+// //push метод додає елемент у кінці масива 
+// friends.push("Max")
+// console.log(friends)
 
-//unshift метод додає елемент на початку масиву
-friends.push("start")
-console.log(friends)
+// //unshift метод додає елемент на початку масиву
+// friends.push("start")
+// console.log(friends)
 
-// метод shift - видяляє елемент на початку масива
-friends.shift()
-console.log(friends)
+// // метод shift - видяляє елемент на початку масива
+// friends.shift()
+// console.log(friends)
+
+
+

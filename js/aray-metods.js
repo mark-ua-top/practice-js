@@ -33,7 +33,7 @@
 // console.log(friends)
 
 // //unshift метод додає елемент на початку масиву
-// friends.push("start")
+// friends.unshift("start")
 // console.log(friends)
 
 // // метод shift - видяляє елемент на початку масива

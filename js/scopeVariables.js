@@ -10,10 +10,10 @@
 // console.log(a)
 // }
 
-// // for (const iterator of object) {
-// //     const a = 3
-// //     console.log(a)
-// // }
+// for (const iterator of object) {
+//     const a = 3
+//     console.log(a)
+// }
 
 // function test () {
 //     const a = 7

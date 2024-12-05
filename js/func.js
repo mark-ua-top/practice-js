@@ -18,7 +18,7 @@
 
 // function countSum(number1, number2) {
 //   const result = number1 + number2;
-//   const message = `загальна сума чисел вийшлв ${result}`;
+//   const message = `загальна сума чисел вийшла ${result}`;
 //   return message;
 // }
 
@@ -252,15 +252,15 @@ const myAverageMark = (mark) => {
 // }
 
 // стало
-const multiplyNumbers = () => {
-    // console.log(arguments)
-    const numbers = Array.from(arguments);
-    let res = 1;
-    for (let i = 0; i < numbers.length; i++) {
-      res = res * numbers[i];
-    }
-    return res;
-  }
+// const multiplyNumbers = () => {
+//     // console.log(arguments)
+//     const numbers = Array.from(arguments);
+//     let res = 1;
+//     for (let i = 0; i < numbers.length; i++) {
+//       res = res * numbers[i];
+//     }
+//     return res;
+//   }
 
 // console.log(multiplyNumbers(3, 4));
 // console.log(multiplyNumbers(2, 4, 6));

@@ -58,32 +58,45 @@
 // My average score: C (якщо середня оцінка від 71 до 80)
 // My average score: D (якщо середня оцінка від 70 і менше)
 
-const array = [91, 100, 80, 95, 93];
+// const array = [91, 100, 80, 95, 93];
 
-const checkResult = (getaverageScore) => {
-    const resultAverageScore = getaverageScore(array)
-    if (resultAverageScore > 91 || resultAverageScore <= 100 ){
-        return `Оцінка A середній бал: ${resultAverageScore}`
-    } else if (resultAverageScore > 81 || resultAverageScore <= 90 ){
-        return `Оцінка B середній бал: ${resultAverageScore}`
-    } else if (resultAverageScore > 71 || resultAverageScore <= 80 ){
-        return `Оцінка C середній бал: ${resultAverageScore}`
-    } else if (resultAverageScore < 70 ){
-        return `Оцінка d середній бал: ${resultAverageScore}`
-    }
+// const checkResult = (getaverageScore) => {
+//     const resultAverageScore = getaverageScore(array)
+//     if (resultAverageScore > 91 || resultAverageScore <= 100 ){
+//         return `Оцінка A середній бал: ${resultAverageScore}`
+//     } else if (resultAverageScore > 81 || resultAverageScore <= 90 ){
+//         return `Оцінка B середній бал: ${resultAverageScore}`
+//     } else if (resultAverageScore > 71 || resultAverageScore <= 80 ){
+//         return `Оцінка C середній бал: ${resultAverageScore}`
+//     } else if (resultAverageScore < 70 ){
+//         return `Оцінка d середній бал: ${resultAverageScore}`
+//     }
+// }
+
+// const myAverageScore = (arrayData) => {
+//   let resultAllArray = 0;
+//   // крок 1 шукаємо суму чисел
+//   for (let i = 0; i < arrayData.length; i++) {
+//     resultAllArray += arrayData[i];
+//   }
+//   // крок 2 ділемо на кількість чисел
+//   const averageScore = resultAllArray / arrayData.length
+
+//   return averageScore;
+// }
+
+// console.log(checkResult(myAverageScore))
+
+// Напишіть функцію, яка повертає новий масив,
+// в якому всі елементи масиву помножені на задане число, з використанням колбек-функції
+
+
+const arr = [1, 2, 3, 4, 5];
+
+
+function multiplyArray(arr, num, callback) {
+    // код  
 }
 
-const myAverageScore = (arrayData) => {
-  let resultAllArray = 0;
-  // крок 1 шукаємо суму чисел
-  for (let i = 0; i < arrayData.length; i++) {
-    resultAllArray += arrayData[i];
-  }
-  // крок 2 ділемо на кількість чисел
-  const averageScore = resultAllArray / arrayData.length
 
-  return averageScore;
-}
-
-console.log(checkResult(myAverageScore))
-
+multiplyArray(arr, 3, () => {});

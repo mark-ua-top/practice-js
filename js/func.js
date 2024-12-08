@@ -206,22 +206,22 @@ test();
 // }
 
 //стало
-const myAverageMark = (mark) => {
-    let sum = 0;
-    for (let i = 0; i < mark.length; i++) {
-      sum += mark[i];
-    }
-    let average = sum / mark.length;
-    if (average >= 91 && average <= 100) {
-      return `My mark: A and ${average} averge mark`;
-    } else if (average >= 81 && average <= 90) {
-      return `My mark: B and ${average} averge mark`;
-    } else if (average >= 71 && average <= 80) {
-      return `My mark: C and ${average} averge mark`;
-    } else {
-      return `My mark: D and ${average} averge mark`;
-    }
-  }
+// const myAverageMark = (mark) => {
+//     let sum = 0;
+//     for (let i = 0; i < mark.length; i++) {
+//       sum += mark[i];
+//     }
+//     let average = sum / mark.length;
+//     if (average >= 91 && average <= 100) {
+//       return `My mark: A and ${average} averge mark`;
+//     } else if (average >= 81 && average <= 90) {
+//       return `My mark: B and ${average} averge mark`;
+//     } else if (average >= 71 && average <= 80) {
+//       return `My mark: C and ${average} averge mark`;
+//     } else {
+//       return `My mark: D and ${average} averge mark`;
+//     }
+//   }
 
 // console.log(myAverageMark([100, 75, 81, 96]));
 // console.log(myAverageMark([45, 63, 85, 70]));

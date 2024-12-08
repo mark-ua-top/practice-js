@@ -87,16 +87,36 @@
 
 // console.log(checkResult(myAverageScore))
 
-// Напишіть функцію, яка повертає новий масив,
-// в якому всі елементи масиву помножені на задане число, з використанням колбек-функції
+// Напишіть стрілкову функцію hello2(),
+// яка при виклику буде приймати змінну name (наприклад,
+//«Василь»)
+// і виводити рядок (в нашому випадку «Привіт, Василь»).
 
+// const arr = [1, 2, 3, 4, 5];
 
-const arr = [1, 2, 3, 4, 5];
+// function multiplyArray(arr, num, callback) {
+//     // код
+// }
 
+// const hello2 = (name) => alert(`Hi u name ${name}`)
+// hello2("Василь")
 
-function multiplyArray(arr, num, callback) {
-    // код  
-}
+// Знайдіть суму елементів масиву з
+// використанням колбек-функції
 
-
-multiplyArray(arr, 3, () => {});
+// const arr = [1, 2, 3, 4, 5];
+// function sumArray(arr, callback) {
+//    // пиши код тут
+// }
+// sumArray(arr, cb);
+// const arr = [1, 2, 3, 4, 5];
+// function sumArray(array, callback) {
+//     let res = 0
+//     for(let i = 0; i < array.length; i++){
+//         res += array[i]
+//     }
+//     callback(res)
+//     return res
+// }
+// const cb = (say) => alert(say)
+// sumArray(arr, cb);

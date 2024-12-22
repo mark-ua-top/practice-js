@@ -71,6 +71,6 @@
 // }
 // console.log(userCopy)
 
-const oldFriends = ["bike", "pc", "phone", "drone"]
-const copyAllFriend = [...oldFriends]
-console.log(copyAllFriend)
+// const oldFriends = ["bike", "pc", "phone", "drone"]
+// const copyAllFriend = [...oldFriends]
+// console.log(copyAllFriend)

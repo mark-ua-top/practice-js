@@ -135,10 +135,50 @@
 
 // console.log(copyArr);
 
-const names = ["Alex", "Max", "Ajax", "Maxxim"]
+// const names = ["Alex", "Max", "Ajax", "Maxxim"]
 
-names.sort((prevName, nextName) => {
-//  return prevName.length - nextName.length
-return prevName.localeCompare(nextName)
-})
-console.log(names)
+// names.sort((prevName, nextName) => {
+// //  return prevName.length - nextName.length
+// return prevName.localeCompare(nextName)
+// })
+// console.log(names)
+
+// // Порахувати загальну кількість товарів в кошику
+
+// const cart = [
+//   { label: 'Apples', price: 100, quantity: 2 },
+//   { label: 'Bananas', price: 120, quantity: 3 },
+//   { label: 'Lemons', price: 70, quantity: 4 },
+// ];
+// знайти фрукт в масиві через reduce
+// const findLemon = cart.reduce((totalLabel, carts) => {
+//     if(carts.label === 'Lemons'){
+//         totalLabel.push(carts) 
+//     }
+//     return totalLabel
+// }, [])
+
+// console.log(...findLemon)
+// const findLemon = cart.reduce((totalLabel, carts) => {
+//     if(carts.label === 'Lemons'){
+//     //    const fruitToFind = {...carts}
+//     totalLabel = {...carts}
+//     }
+//     return totalLabel
+// }, {})
+
+// console.log(findLemon)
+// const filterPrice = cart.reduce((totalQunt, carts) => {
+// if(carts.price >= 100){
+//     totalQunt.push(carts)
+// }
+// return totalQunt
+// }, [])
+// console.log(filterPrice)
+
+// const totalAmount = cart.reduce((totalQunt, carts) => {
+// return totalQunt + carts.quantity
+// }, 0)
+
+// console.log(totalAmount);
+

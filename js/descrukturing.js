@@ -16,7 +16,7 @@
 // // const friends = user.friends;
 
 // const {name: userName, password, friends ="empty", addres:{country, city}} = user
-// // const {country, city} = user.addres
+// const {country, city} = user.addres
 
 // console.log(userName, password, friends)
 // console.log(country, city)

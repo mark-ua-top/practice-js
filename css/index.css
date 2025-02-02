@@ -1,0 +1,25 @@
+.fruit-list {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.fruit-item {
+    max-width: 300px;
+    box-shadow: 4px 4px 30px 6px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+h2 {
+text-align: center;
+}
+
+p {
+    text-align: center;
+}

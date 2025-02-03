@@ -122,3 +122,4 @@ const attribute = linkElem.getAttribute("href")
 linkElem.setAttribute("target", "blank")
 
 const attributes = linkElem.attributes
+

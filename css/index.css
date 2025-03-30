@@ -1,35 +1,61 @@
 .fruit-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .fruit-item {
-    max-width: 300px;
-    box-shadow: 4px 4px 30px 6px;
-    border-radius: 10px;
-    padding: 5px;
+  max-width: 300px;
+  box-shadow: 4px 4px 30px 6px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 img {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 #box {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hello-site {
+  background-color: bisque;
+  width: 300px;
+  height: 300px;
+}
+
+#graph {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-150px, -150px);
+}
+
+.imageTestFruitList {
+  display: flex;
+  gap: 30px;
+ flex-direction: column;
+}
+.imageTestFruit {
+}
+.imageTestImg {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}

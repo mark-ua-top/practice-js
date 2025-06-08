@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(119, 119, 119);
+}
+
+
 .fruit-list {
   display: flex;
   flex-wrap: wrap;
@@ -11,9 +16,37 @@
   padding: 5px;
 }
 
-img {
-  width: 100%;
-  max-width: 100%;
+.githubUsers {
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+.userLi,.userusLi {
+background-color: aliceblue;
+border: solid 1px black;
+padding: 20px;
+border-radius: 10px;
+width: 200px;
+}
+
+.userTitle,.userId {
+color: rgb(186, 0, 186);
+}
+.userId,.id {
+  font-size: 20px;
+  color: rgb(107, 0, 0);
+}
+.userNodeId,.title,.body {
+  font-size: 10px;
+  color: rgba(186, 0, 186, 0.66);
+}
+
+.userImg {
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 h2 {

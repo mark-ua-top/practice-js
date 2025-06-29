@@ -153,7 +153,7 @@
 // знайти фрукт в масиві через reduce
 // const findLemon = cart.reduce((totalLabel, carts) => {
 //     if(carts.label === 'Lemons'){
-//         totalLabel.push(carts) 
+//         totalLabel.push(carts)
 //     }
 //     return totalLabel
 // }, [])
@@ -181,4 +181,3 @@
 // }, 0)
 
 // console.log(totalAmount);
-
